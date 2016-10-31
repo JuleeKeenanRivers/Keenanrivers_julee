@@ -35,6 +35,7 @@ tax = (subtotal*.0872)
 print("total:.....",(subtotal - discount + tax))
 total = (subtotal - discount + tax)
 
+
 print("*Thank you for your support*")
 
 

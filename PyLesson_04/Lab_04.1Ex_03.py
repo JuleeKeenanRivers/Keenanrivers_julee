@@ -9,6 +9,7 @@ p = float(input( " principal: "))
 
 print("Cost of loan is:", interest(r,p,n,t)/(t*12))
 
+
       
 
 
