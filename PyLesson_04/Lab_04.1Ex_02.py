@@ -12,14 +12,15 @@ subject = input( "What is your subject?" )
 
 print( "*" * 20 )
 
-print("* {:<10}".format(schoolsite),schoolyear , " * ")
+print("* {:>10} {:>10} *".format(schoolsite, schoolyear))
 
 
-print("* {:<10}".format(name) ,lastname, " * ")
+print("* {:>10} {:>10} *".format(name, lastname))
 
 
-print("* {:<10}".format(title) ,subject, " * ")
+print("* {:>10} {:>10} *".format(title, subject))
 
 print("*" * 20)
+
 
 

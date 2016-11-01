@@ -6,23 +6,27 @@ spanish = input("enter grade for spanish class: ")
 computerprogramming = input("enter grade for computerprogramming class: ")
 cooking = input("what is your grade for spanish class: ")
 
-name = science
-units = A
-category = "not found"
 
 
-    
 def calcPoints(grade):
     if grade == "A":
-        return = 4.0
+        return 4.0
     elif grade == "B":
-        return = 3.0
+        return 3.0
     elif grade == "C":
-        return = 2.0
+        return 2.0
     elif grade == "D":
-        return = 1.0
-    else = 0
+        return 1.0
+    else:
+        return 0.0
+    
+gradePoints = calcPoints(science) + calcPoints(math) + calPoints(english) + calcPoints(history) + calcPoints(spanish) + calcPoints(computerprogramming) + calcPoints(cooking)
+
+print("Your GPA is", (gradePoints)/7)
+
 
 
     
+
+
 

@@ -1,5 +1,5 @@
 def formatr(item, price):
-    print("{:>20}......{8.2f}".format(item, price))
+    print("{:.<15} {:8.2f}".format(item, price))
 
 item1 = input("please enter item1: ")
 price1 = float(input("please enter the price: "))
@@ -22,18 +22,28 @@ formatr(item2, price2)
 formatr(item3, price3)
 formatr(item4, price4)
 
-discount(subtotal)
+
+discount = 0;
+
 if subtotal>2000:
-    print(subtotal*.15)
+    discount = 0.15 * subtotal 
 
 if subtotal<2000:
-    print(subtotal)
-    
-print("tax:.....", (subtotal*.0872))
-tax = (subtotal*.0872)
+    discount = 0
 
-print("total:.....",(subtotal - discount + tax))
+#print("Discount: .....", discount)
+
+formatr("Discount",discount)
+    
+#print("tax:.....", (subtotal*.0872))
+
+tax = (subtotal*.0872)
+formatr("tax",tax)
+
 total = (subtotal - discount + tax)
+#print("total:.....",total)
+
+formatr("total",total)
 
 
 print("*Thank you for your support*")
