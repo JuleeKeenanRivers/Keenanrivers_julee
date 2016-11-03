@@ -20,9 +20,10 @@ def calcPoints(grade):
     else:
         return 0.0
     
-gradePoints = calcPoints(science) + calcPoints(math) + calPoints(english) + calcPoints(history) + calcPoints(spanish) + calcPoints(computerprogramming) + calcPoints(cooking)
+gradePoints = calcPoints(science) + calPoints(math) + calcPoints(english) + calcPoints(history) + calcPoints(spanish) + calcPoints(computerprogramming) + calcPoints(cooking)
 
 print("Your GPA is", (gradePoints)/7)
+
 
 
 
