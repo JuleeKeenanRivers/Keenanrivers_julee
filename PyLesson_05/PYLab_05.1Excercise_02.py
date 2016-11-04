@@ -1,25 +1,40 @@
-height = float(" What is your height: ")
-weight = float(" What is your weight: ")
-BMI = 0
-condition = "Not found" 
-def calcInput(BMI):
-    return weight/(height*height)*703
+h = float(input(" What is your height: "))
+w = float(input(" What is your weight: "))
+bmi = 0
 
-if BMI < 18.5:
-    condition = "condition is underweight"
-elif BMI < 24.9:
-    condition = "is normal"
-elif BMI < 29.9:
-    condition = "overweight" 
-elif BMI < 34.9:
-    condition = "obese"
-elif BMI < 39.9:
-    condition = "very obese"
-else BMI > 39.9:
-    condition = "morbidly obese"
+condition = "Not found"
+def calcBmi():
+    global condition, bmi
+    bmi = (703*(w/(h**2)))
 
-print("Your BMI is", BMI)
+    if bmi < 18.5:
+        condition = "condition is underweight"
+        
+    elif bmi < 24.9:
+        condition = "is normal"
+        
+    elif bmi < 29.9:
+        condition = "overweight"
+
+        
+    elif bmi < 34.9:
+        condition = "obese"
+        
+    elif bmi < 39.9:
+        condition = "very obese"
+        
+    else:
+        condition = "morbidly obese"
+
+calcBmi()
+
+print("Your BMI is", bmi)
 print("You are", condition) 
 
 
+
+
+
+
+  
 
