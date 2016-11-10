@@ -1,32 +1,28 @@
-print("One day you were walking down the street and you saw a monster")
-choice = input("Do you kill the monster or continue on with you walk (k or w)") 
-if choice == "k":
-    print ("You attacked the  monster and survived")
-if choice == "w":
-    print("You died")
-print("You continue down the street and you find a thousand dollars")
-choice = input("Do you take the money or continue walking(t or w)")
-if choice == "t":
-     print("You were arrested and died")
-if  choice == "w":
-     print("You continuing walking down the street")
-else:
-     #end of program
-else:
-    if choice == c:
-            #end of program
+print("You are in a restaurant and get to choose a food.")
+choice = input("Do you choose to eat ice-cream or pizza (i or p)")
+if choice == "i":
+    print ("Do you want donuts or a sandwhich (d or s)")
+    if choice == "d":
+        print("Do you want fruit or vegetables (f or v)")
+        if choice == "f":
+            print("You ate Ice cream, Donuts, and Fruit today") 
         else:
-            #end of program
-
-else: #if choice == "w";
-    if choice == a:
-        if choice == b:
-            #end of program
-        else:
-            #end of program
+            print("You ate Ice cream, Donuts, and vegetables today")
     else:
-        if choice == c:
-            #end of program
+        print("Do you want fruit or vegetables(f or v)") 
+        if choice == "f":
+            print("You ate Ice cream, sandwhiches, and fruit today")
+            else:
+                print("You ate Ice cream, sandwhiches, and vegetables today")
+         
+else:
+    print ("Do you want donuts or a sandwhich (d or s)")
+    if choice == "d":
+        print("Do you want fruit or vegetables (f or v)")
+        if choice == "f":
+            print("You ate ") 
         else:
-            #end of program
             
+    else:
+        
+

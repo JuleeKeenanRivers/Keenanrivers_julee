@@ -6,7 +6,7 @@ title = input( "Enter your title:" )
 
 schoolsite = input( "Enter the school site:" )
 
-schoolyear = int(input( "Enter the school year:" ))
+schoolyear = input( "Enter the school year:" )
 
 subject = input( "What is your subject?" )
 
