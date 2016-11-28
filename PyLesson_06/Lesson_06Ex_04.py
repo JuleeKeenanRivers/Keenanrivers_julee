@@ -5,3 +5,4 @@ for i in range(1, size):
     integer *= i
 
 print(integer) 
+

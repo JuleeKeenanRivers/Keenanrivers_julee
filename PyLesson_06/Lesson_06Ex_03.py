@@ -5,3 +5,4 @@ def printTri():
         print(word[0:i])
 printTri() 
 
+

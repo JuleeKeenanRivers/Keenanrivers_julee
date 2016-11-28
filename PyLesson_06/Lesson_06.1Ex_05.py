@@ -5,3 +5,4 @@ for i in range(0,num1+ 1,num2):
     output = output + str(i) + ""
 print(output) 
     
+
