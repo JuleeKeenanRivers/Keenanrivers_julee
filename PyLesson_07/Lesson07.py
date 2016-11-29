@@ -1,8 +1,14 @@
 number = int(input("Enter a number:"))
+digits = 0
+num = number 
+
 
 while number > 0:
-    # %10 returns the last digit on the right
-    print(number % 10)
-    # dividing by 10 shaves off the last digit on the right 
-    number = int(number / 10)
-    
+    digits += 1
+    number = int(number/10)
+
+print("There are", digits, "digits in", num)
+
+
+
+
