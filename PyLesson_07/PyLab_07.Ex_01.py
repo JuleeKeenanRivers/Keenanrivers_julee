@@ -1,18 +1,19 @@
 number = int(input("Please enter a number:"))
+summ = 0
 num = number
-sum = 0
 
 def sumDigits(num):
-    global sum
+    global summ
     while num > 0:
-        sum += num%10
-        num = int(num /= 10)
+        summ += num%10
+        num = int(num / 10)
 
 sumDigits(num)
         
-print("The sum of the digits in", num, "is", sum)
+print("The sum of the digits in", num, "is", summ)
 
     
+
 
 
 
