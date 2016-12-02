@@ -6,13 +6,16 @@ def getReverse(num):
     global rev 
     while num > 0:
         rev *= 10
-        print(number%10) 
+        print(num%10)
+        rev += (num % 10)
         num = int(num/10)
-        rev = num
+        
+        
        
 getReverse(num)
 
 print(number , "reversed is" , rev)
+
 
 
 

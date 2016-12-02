@@ -17,5 +17,8 @@ averageDigits(numbr)
 print("The average of the digits in", numbr, "is", average)
 
 
+
+
         
     
+
