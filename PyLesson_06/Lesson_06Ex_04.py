@@ -1,8 +1,8 @@
-integer = int(input("Please enter an integer:"))
+num = int(input("Please enter an integer:"))
 size = int(input("Please enter the size of the table:"))
 
 for i in range(1, size):
-    integer *= i
+    print("{:10} | {:10}".format(i, i*num))
 
-print(integer) 
+
 

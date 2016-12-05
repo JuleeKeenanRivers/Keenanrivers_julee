@@ -1,16 +1,16 @@
 sentence = input("Please enter a sentence:")
 
-top = 0 
-def Replace(sentence):
-    while top < sentence.count("a") > 0:
-        sentence = sentence[0 : sentence.index("a")] + sentence[sentence.index("a")+1 : len(sentence)]
-        "a" = @
+def Replace(sen):
+    while sen.count("a") > 0:
+        sen = sen[0 : sen.index("a")] + "@" + sen[sen.index("a")+1 : len(sen)]
+    return sen
 
-print(sentence)
+print(Replace(sentence))
 
         
     
         
+
 
 
 
