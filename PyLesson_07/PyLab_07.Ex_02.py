@@ -1,20 +1,25 @@
-def averageDigits(number):
-    global average
-    digits = 0
-    base = 0
-    num = number
-    while num > 0:
-        digits += 1
-        base += digits%10
-        num = int(num/10)
-    average = base/digits
-
-numbr = int(input("Please enter a number:"))
+number = int(input("Please enter a number:"))
+digits = 0
 average = 0
 
-averageDigits(numbr)
 
-print("The average of the digits in", numbr, "is", average)
+
+def averageDigits(number):
+    num = number
+    global average, digits
+    while num > 0:
+        digits += 1
+        average += num % 10
+        num = int(num/10)
+    average /= digits
+
+averageDigits(number)
+
+print("The average of the digits in", number, "is", average)
+
+
+
+
 
 
 
