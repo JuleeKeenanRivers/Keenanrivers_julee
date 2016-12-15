@@ -2,14 +2,15 @@ newList = ["hello", "hey", "hi", "hola", "heyy"]
 
 print("In order...")
 
-for i in newList:
-    print(newList str.[i])
+
+def reverse(array):
+    for i in [i:len(newList)]:
+        print 
 
 print("/n") 
 
 print("Reversed....")
 
-
-
+def reverse
     
     
