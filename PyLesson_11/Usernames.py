@@ -1,39 +1,36 @@
-class Usernames:
+class UserNames:
     #constructor
     def __init__(self, fName,lName,uName):
-        self.firsName = fName
+        self.firstName = fName
         self.lastName = lName
         self.userName = uName
 
     #Modifier
-    def setUName(self, newUser):
+    def setUserName(self, newUser):
         self.userName = newUser
 
     #Accessors
     def getFirstName(self):
-        return self.firsName
+        return self.firstName
 
     def getLastName(self):
         return self.lastName
 
     def getUserName(self):
-        return self.username
+        return self.userName
 
-    def main():
-        firstName = input("Please enter your first name:")
-        lastName = input("Enter your last name:")
-        userName = input("enter your desired user name:")
+def main():
+    firstName = input("Please enter your first name:")
+    lastName = input("Enter your last name:")
+    userName = input("enter your desired user name:")
 
-        user1 = user_Account(firstName, lastName, userName)
+    #instantate an object
 
-        print("<<<<< USER INFO>>>>>>")
-        print("Name:", user1.getFirstName()," ", user1.getLastName())
-        print("User Name:", user1.getUserName(), "\n\n")
+    user1 = UserNames(firstName, lastName, userName)
 
-        user1.setUName("pHandsome")
+    print("<<<<< USER INFO>>>>>>")
+    print("Name:", user1.getFirstName()," ", user1.getLastName())
+    print("User Name:", user1.getUserName(), "\n\n")
 
-        print("<<<<< USER INFO>>>>")
-        print("Name:", user1.getFirstName(), " ", user1.getLastName())
-        print("User Name:", user1.getUserName(), "\n\n")
 
-    main() 
+main() 
