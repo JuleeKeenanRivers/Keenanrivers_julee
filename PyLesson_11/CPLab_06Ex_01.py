@@ -1,4 +1,5 @@
 
+
 class MilesPerHour:
     #constructor
     def __init__(self, dist = 0, ho = 0, mi = 0):

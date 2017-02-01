@@ -29,43 +29,19 @@ def main():
 
     #instantate an object
 
-    Human1 = human(hair, eyes, skin)
+    human1 = Human(hair, eyes, skin)
 
     print("My Info:")
-    print("my hair:", Human1.getHair())
-    print("my eyes:", Human1.getEyes())
-    print("my skin:", Human1.getSkin())
+    print("my hair:", human1.getHair())
+    print("my eyes:", human1.getEyes())
+    print("my skin:", human1.getSkin())
 
-
-
-    #modifier
-    def setFHES(self, newh, newe, news):
-        self.newhair = h
-        self.neweyes = e
-        self.newskin = s
-
-    #accessors
-        
-
-    def getnewHair(self):
-        return self.newhair
-
-    def getnewEyes(self):
-        return self.neweyes
-
-    def getnewSkin(self):
-        return self.newSkin
-
-    newhair = input("hair:")
-    neweyes = input("eyes:")
-    newskin = input("skin:") 
-
-    Human2 = human(newhair, neweyes, newskin)
+    human1.setHES("blonde", "blue", "tan")
 
     print("Friends Info:")
-    print("friends hair:", Human2.getnewHair())
-    print("friends eyes:", Human2.getnewEyes())
-    print("friends skin:", Human2.getnewSkin())
+    print("friends hair:", human1.getHair())
+    print("friends eyes:", human1.getEyes())
+    print("friends skin:", human1.getSkin())
 
 main() 
 
