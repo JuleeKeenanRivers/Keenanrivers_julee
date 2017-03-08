@@ -1,23 +1,20 @@
 p:nth-child(even){
-	color:green;
-}
-
-p:nth-child(odd){
-	color:red;
+	color:#87CEFA;
+	font-family:arial;
 }
 
 tr:nth-child(odd) > td:nth-child(even){
-	background-color:green;
+	background-color:blue;
 }
 
 tr:nth-child(odd) > td:nth-child(odd){
-		background-color:red;
+		background-color:orange;
 }
 
 tr:nth-child(even) > td:nth-child(odd){
-	background-color:green;
+	background-color:blue;
 }
 
 tr:nth-child(even) > td:nth-child(even){
-		background-color:red;
+		background-color:orange;
 }
