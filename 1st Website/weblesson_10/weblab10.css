@@ -19,21 +19,58 @@ body{
 	text-align: center; 
 }
 
+#bigwrapper {
+	border: 1px solid deepskyblue;
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+}
+
 #topHeader {
-	background: yellow;
+	background: lightblue;
 	border: 1px solid white;
 	padding: 20px;
 }
 
 #topMenu{
-	background: purple;
-	color: yellow;
+	background: mediumslateblue;
+	color: darkblue;
 }
 
-#topMenu > li {
+#topMenu li {
 	display: inline-block;
-	list-style:none;
+	list-style: none;
 	padding: 5px;
-	font:bold 14px Tahoma;
+	font: bold 14px Tahoma;
+}
 
+#mainsection {
+	float: left;
+	width: 660px;
+	margin: 30px; /* 720 total px, 280 left*/
+}
+#SideNews {
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
+}
+
+#pageFooter {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+}
+
+article {
+	background: royalblue;
+	border: 1px solid cadetblue;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article > footer{
+	text-align:right;
 }
