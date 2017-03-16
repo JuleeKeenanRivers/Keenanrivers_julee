@@ -31,15 +31,15 @@ body{
 }
 
 #topHeader{
-    background:yellow;
+    background:lightseagreen;
     border: 3px solid black;
     padding:20px;
 }
 
 #topMenu{
-    border:red;
-    background:blue;
-    color:white;
+    border:lightpink;
+    background:gainsboro;
+    color:darkolivegreen;
 }
 
 #topMenu li{
@@ -59,18 +59,21 @@ body{
     -webkit-box-flex: 1px;
     margin: 20px;
     padding: 20px;
+    -webkit-box-ordinal-group: 2;
+    -webkit-box-flex: 1000;
 }
 
 #SideNews{
-    border:1px solid red;
-    width: 220px;
+    border:1px solid royalblue;
     margin: 20px 0px;
     padding: 30px;
-    background:purple;
+    background: honeydew;
+    -webkit-box-ordinal-group: 1;
+    -webkit-box-flex: 2;
 }
 
 #pageFooter{
     text-align: center;
     padding: 20px;
-    border-top: 2px solid green;
+    border-top: 2px steelblue;
 }

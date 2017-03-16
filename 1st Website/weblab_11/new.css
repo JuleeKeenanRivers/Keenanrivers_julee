@@ -2,6 +2,8 @@
     border: 2px solid blue;
     display: -webkit-box;
     -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
     width: 700px;
     height:300px;
 }
@@ -11,6 +13,8 @@
     background:green;
     padding: 20px;
     margin: 10px;
+    -webkit-box-ordinal-group: 1;
+    -webkit-box-flex: 1;
 }
 
 #kid2 {
@@ -18,6 +22,8 @@
     background:yellow;
     padding: 20px;
     margin: 10px;
+    -webkit-box-ordinal-group: 2;
+    -webkit-box-flex: 3;
 }
 
 #kid3 {
@@ -25,6 +31,8 @@
     background:red;
     padding: 20px;
     margin: 10px;
+    -webkit-box-ordinal-group: 3;
+    -webkit-box-flex: 1;
 }
 
 #kid4 {
@@ -32,4 +40,6 @@
     background:orange;
     padding: 20px;
     margin: 10px;
+    -webkit-box-ordinal-group: 4;
+    -webkit-box-flex: 1;
 }
